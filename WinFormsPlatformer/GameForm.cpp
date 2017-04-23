@@ -1,9 +1,10 @@
 #include "GameForm.h"
-#include "Game.h"
-#include "Player.h"
+#include <string>
+
 
 using namespace System;
 using namespace System::Windows::Forms;
+using namespace std;
 
 void Main()
 {
