@@ -5,17 +5,20 @@ using namespace std;
 #pragma once
 class Block
 {
-public:
-	int coordinatesX;
-	int coordinatesY;
-
+private:
+	int xPosition;
+	int yPosition;
+	int height;
+	int width;
 	bool passable;
-
 	string imagePath;
-
-
 public:
 	Block();
+	bool isNearFrom(Block);
+	int getXPosition();
+	int getYposition();
+	int getHeight();
+	int getWidth();
 	~Block();
 };
 
